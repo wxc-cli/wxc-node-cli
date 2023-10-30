@@ -1,0 +1,33 @@
+{
+  "name": "wxc-node-cli",
+  "version": "1.0.0",
+  "description": "wxc-node-cli,koad + mysql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start": "npm run dev",
+    "build": "pm2 start app.js --name node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wxc-cli/wxc-node-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wxc-cli/wxc-node-cli/issues"
+  },
+  "homepage": "https://github.com/wxc-cli/wxc-node-cli#readme",
+  "dependencies": {
+    "dayjs": "^1.11.9",
+    "jsonwebtoken": "^9.0.0",
+    "koa": "^2.14.2",
+    "koa-bodyparser": "^4.4.1",
+    "koa-router": "^12.0.1",
+    "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.6",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.21"
+  }
+}
